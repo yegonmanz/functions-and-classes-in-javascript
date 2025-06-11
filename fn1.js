@@ -32,7 +32,7 @@ let books = [
     title: "The Alchemist",
   },
   {
-    title: "The Monk who sold his Ferrari",
+    title: "The Psychology of Money",
   },
   {
     title: "The Subtle Art of Not Giving a F*ck",

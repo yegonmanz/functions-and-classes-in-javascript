@@ -94,3 +94,14 @@ let oldestPersonInAges = function findOldest(ages){
 }
 
 let maxAge = oldestPersonInAges([20, 30, 40, 50, 60, 70, 80, 90, 100]);
+
+function leapyear(year) {
+    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+        console.log(`${year} is a leap year`);
+        return true;
+    } else {
+        console.log(`${year} is not a leap year`);
+        return false;
+    }
+}
+leapyear(2020);

@@ -105,3 +105,11 @@ function leapyear(year) {
     }
 }
 leapyear(2020);
+
+
+const squareNumber = (num) => {
+    return num * num;
+};
+
+
+console.log(squareNumber(4)); // Output: 16

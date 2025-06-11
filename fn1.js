@@ -113,3 +113,10 @@ const squareNumber = (num) => {
 
 
 console.log(squareNumber(4)); // Output: 16
+
+// Example of a simple function that greets a user
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+// Call the greet function with a name
+console.log(greet("Alice")); // Output: Hello, Alice!
